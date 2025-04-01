@@ -11,11 +11,11 @@ const App = () => {
       <div className="max-w-3xl mx-auto px-6 py-12">
         {/* Profile Section */}
         <div className="text-center mb-12">
-          <img
-            src="/portfolio/me.png"
-            alt="Profile"
-            className="w-28 h-35 rounded-full mx-auto mb-4"
-          />
+         <img
+           src={`${import.meta.env.BASE_URL}me.png`}
+           alt="Profile"
+           className="w-28 h-35 rounded-full mx-auto mb-4"
+         />
           <h1 className="text-3xl font-bold mb-2">Emma Morris</h1>
 
           {/* ✨ Emojis row for fun */}
