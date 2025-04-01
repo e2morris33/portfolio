@@ -231,7 +231,7 @@ const projects = [
       </>
     ),
     technologies: ["Figma", "User Research", "Prototyping"],
-    image: "/portfolio/tend.png",
+    image: "/portfolio/Tend.png",
     github: "https://highercommonsense.com/cs247b/16794/",
     isReport: true,
   },
