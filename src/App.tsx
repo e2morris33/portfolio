@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import meImage from "./public/me.png";
+//import meImage from "./public/me.png";
 
 const App = () => {
   return (
@@ -12,7 +12,8 @@ const App = () => {
       <div className="max-w-3xl mx-auto px-6 py-12">
         {/* Profile Section */}
         <div className="text-center mb-12">
-          <img src={meImage} alt="Profile" />
+          <img src="/me.png" alt="Profile" />
+
           <h1 className="text-3xl font-bold mb-2">Emma Morris</h1>
 
           {/* ✨ Emojis row for fun */}
