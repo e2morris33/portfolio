@@ -1,5 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  Navigate,
+} from "react-router-dom";
+
 import { Github, Linkedin, Mail } from "lucide-react";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -31,9 +38,10 @@ const App = () => {
 
         {/* Navigation */}
         <div className="flex justify-center gap-4 mb-10">
-          <Link to="/" className="text-gray-600 hover:text-black">
+          <Link to="/home" className="text-gray-600 hover:text-black">
             home
           </Link>
+
           <span className="text-gray-300">|</span>
           <Link to="/projects" className="text-gray-600 hover:text-black">
             projects
@@ -46,7 +54,8 @@ const App = () => {
 
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/home" replace />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
