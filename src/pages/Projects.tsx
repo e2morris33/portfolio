@@ -171,7 +171,7 @@ const projects = [
       </>
     ),
     technologies: ["React Native", "JavaScript"],
-    image: "/plated.png",
+    image: "/portfolio/plated.png",
     github: "https://github.com/ashleyvincent10/platedapp52",
     demo: "https://www.youtube.com/watch?v=j9SXlw8Pwrk",
     report:
@@ -182,7 +182,7 @@ const projects = [
     description:
       "Built a Python-based chatbot that recommends movies using natural language processing, sentiment analysis, and collaborative filtering. Leveraged the MovieLens dataset (9,000+ movies) and integrated a Large Language Model interface for advanced conversational interactions. Ensured robust functionality through rigorous testing and debugging.",
     technologies: ["Python", "LLM"],
-    image: "/chatbot.png",
+    image: "/portfolio/chatbot.png",
     github: "https://github.com/e2morris33/CS124chatbot/blob/main/chatbot.py",
   },
   {
@@ -190,7 +190,7 @@ const projects = [
     description:
       "Utilizing the Spotify API, I developed an app that allows users to connect their Spotify accounts and explore their listening patterns by browsing their top tracks or tracks from a specific album in an intuitive and user-friendly interface.",
     technologies: ["React Native"],
-    image: "/spotify.png",
+    image: "/portfolio/spotify.png",
     github: "https://github.com/cs147L-24au/e2morris/blob/main/A3-main/App.js",
   },
   {
@@ -198,7 +198,7 @@ const projects = [
     description:
       "Developed an interactive data visualization website analyzing the success of the Kansas City Chiefs, showcasing their performance metrics and strategic strengths. Leveraged web development tools to create engaging, interactive visualizations, including dynamic charts and infographics.",
     technologies: ["React", "CSS", "HTML"],
-    image: "/chiefs.png",
+    image: "/portfolio/chiefs.png",
     github: "https://github.com/e2morris33/448bfinal/blob/main/src/App.js",
     demo: "https://www.youtube.com/watch?v=PcaUBIecQ2c",
   },
@@ -207,7 +207,7 @@ const projects = [
     description:
       "Developed an interactive data visualization tool using d3.js and a Yelp dataset to map restaurants near the Bay Area. Implemented filters for price, ratings, and location radius, enabling users to explore shops that meet specific criteria within overlapping regions of interest.",
     technologies: ["JavaScript"],
-    image: "/bay.png",
+    image: "/portfolio/bay.png",
     github: "https://github.com/e2morris33/bayAreaFinder",
   },
   {
@@ -231,7 +231,7 @@ const projects = [
       </>
     ),
     technologies: ["Figma", "User Research", "Prototyping"],
-    image: "/tend.png",
+    image: "/portfolio/tend.png",
     github: "https://highercommonsense.com/cs247b/16794/",
     isReport: true,
   },

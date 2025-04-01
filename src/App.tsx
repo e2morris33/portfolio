@@ -15,7 +15,7 @@ const App = () => {
           <img
             src="/portfolio/me.png"
             alt="Profile"
-            className="w-32 h-32 rounded-full object-cover mx-auto mb-4 shadow-md"
+            className="w-28 h-32 rounded-full object-cover mx-auto mb-4 shadow-md"
           />
 
           <h1 className="text-3xl font-bold mb-2">Emma Morris</h1>
