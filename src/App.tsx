@@ -12,7 +12,7 @@ const App = () => {
         {/* Profile Section */}
         <div className="text-center mb-12">
           <img
-            src="me.png"
+            src="/portfolio/me.png"
             alt="Profile"
             className="w-28 h-35 rounded-full mx-auto mb-4"
           />
