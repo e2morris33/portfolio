@@ -12,7 +12,7 @@ const App = () => {
         {/* Profile Section */}
         <div className="text-center mb-12">
          <img
-           src={`${import.meta.env.BASE_URL}me.png`}
+           src="me.png"
            alt="Profile"
            className="w-28 h-35 rounded-full mx-auto mb-4"
         />
