@@ -12,7 +12,11 @@ const App = () => {
       <div className="max-w-3xl mx-auto px-6 py-12">
         {/* Profile Section */}
         <div className="text-center mb-12">
-          <img src="/portfolio/me.png" alt="Profile" />
+          <img
+            src="/portfolio/me.png"
+            alt="Profile"
+            className="w-32 h-32 object-cover rounded-full mx-auto mb-4 shadow-md"
+          />
 
           <h1 className="text-3xl font-bold mb-2">Emma Morris</h1>
 
