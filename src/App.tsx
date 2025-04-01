@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import profilePic from './public/me.png';
 
 const App = () => {
   return (
@@ -12,11 +11,11 @@ const App = () => {
       <div className="max-w-3xl mx-auto px-6 py-12">
         {/* Profile Section */}
         <div className="text-center mb-12">
-         <img
-           src={profilePic} 
-           alt="Profile"
-           className="w-28 h-35 rounded-full mx-auto mb-4"
-        />
+          <img
+            src="/me.png"
+            alt="Profile"
+            className="w-28 h-35 rounded-full mx-auto mb-4"
+          />
           <h1 className="text-3xl font-bold mb-2">Emma Morris</h1>
 
           {/* ✨ Emojis row for fun */}
