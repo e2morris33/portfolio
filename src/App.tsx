@@ -4,6 +4,7 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
+import profilePic from './public/me.png';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
         {/* Profile Section */}
         <div className="text-center mb-12">
          <img
-           src="me.png"
+           src={profilePic} 
            alt="Profile"
            className="w-28 h-35 rounded-full mx-auto mb-4"
         />
