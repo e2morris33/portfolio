@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function Resume() {
   useEffect(() => {
     window.open(
-      "https://drive.google.com/file/d/1-ujdGAPQJPvOiuuPFqavl12DrHOHTwnv/preview",
+      "https://docs.google.com/document/d/1Tpsnh49WfP5pftrWBoi5UXUS1tFyZiT_77QbhNfyVbE/preview",
       "_blank"
     );
   }, []);
