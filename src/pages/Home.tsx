@@ -54,9 +54,7 @@ function Home() {
             <span className="text-gray-500 italic">(Sept 2021 - Present)</span>
           </li>
           <li>
-            → As a private tutor, I work with beginner students to build
-            confidence in python coding—focusing on core concepts, debugging,
-            and problem-solving.
+            →  I recently accepted a software engineering internship at Splitit, a global fintech company, where I’ll be working in their Atlanta office this summer—gaining hands-on experience at the intersection of payments technology and product development. (Summer 2025)
             <span className="text-gray-500 italic">(Dec 2024 - Present)</span>
           </li>
           <li>
